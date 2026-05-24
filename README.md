@@ -5,7 +5,7 @@
 
 <br>
 
-> Detection engineer. Threat hunter. I build the things I wish existed for working defenders.
+> Threat hunter. HEARTH keeper. I build the things I wish existed for working defenders.
 
 ―――――――――  ◆  ―――――――――
 
