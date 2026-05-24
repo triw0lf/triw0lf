@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Lauren Proehl — Executive by day, hunter by night.">
+  <defs>
+    <radialGradient id="bg" cx="78%" cy="-10%" r="80%">
+      <stop offset="0%" stop-color="#cfe1f5" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#f3f7fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3f7fc" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#f3f7fc" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dceaf7"/>
+      <stop offset="55%" stop-color="#7aa6cf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f3f7fc" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name { font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif; font-weight: 400; fill: #0d1424; letter-spacing: -1.6px; }
+      .em { font-style: italic; fill: #2f6aab; }
+      .tag { font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-size: 18px; fill: #5e6c8c; letter-spacing: 0.18em; text-transform: uppercase; }
+      .role { font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; font-size: 17px; fill: #3e4a66; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" fill="#f3f7fc"/>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+
+  <!-- Cold sun / atmospheric light, upper right -->
+  <circle cx="1060" cy="62" r="42" fill="url(#sun)"/>
+  <circle cx="1060" cy="62" r="9" fill="#4a7bb5" opacity="0.55"/>
+
+  <!-- Mountains: three parallax layers right side -->
+  <g transform="translate(620 50)">
+    <path d="M0,150 L50,130 L100,148 L160,118 L220,148 L280,128 L340,148 L400,132 L460,150 L520,134 L560,150 L560,200 L0,200 Z"
+          fill="#a8c0dc" opacity="0.6"/>
+    <path d="M0,165 L60,128 L110,158 L175,98 L230,142 L290,105 L355,140 L410,118 L470,150 L530,118 L560,165 L560,200 L0,200 Z"
+          fill="#6a8aae" opacity="0.8"/>
+    <path d="M0,175 L55,148 L105,168 L165,82 L225,148 L285,62 L340,140 L400,98 L455,150 L510,102 L560,160 L560,200 L0,200 Z"
+          fill="#3d5980"/>
+    <rect x="0" y="140" width="560" height="60" fill="url(#mist)"/>
+  </g>
+
+  <text x="64" y="62" class="tag">@triw0lf</text>
+  <text x="64" y="152" class="name" font-size="92">Lauren <tspan class="em">Proehl</tspan></text>
+  <text x="64" y="196" class="role" font-size="18">Executive by day, hunter by night.</text>
+  <text x="64" y="224" class="role" opacity="0.75">Global Head of D&amp;R at <tspan font-weight="500" fill="#0d1424">Marsh</tspan>  ·  Co-founder of <tspan font-weight="500" fill="#0d1424">THOR Collective</tspan></text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Lauren Proehl — Executive by day, hunter by night.">
+  <defs>
+    <radialGradient id="bg" cx="78%" cy="-10%" r="80%">
+      <stop offset="0%" stop-color="#23427a" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#0d1424" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgLeft" cx="-5%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#172037" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0d1424" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1424" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d1424" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dcefff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#6fb3e8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d1424" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name { font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif; font-weight: 400; fill: #eef3ff; letter-spacing: -1.6px; }
+      .em { font-style: italic; fill: #b6dcf5; }
+      .tag { font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-size: 18px; fill: #7a8bad; letter-spacing: 0.18em; text-transform: uppercase; }
+      .role { font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; font-size: 17px; fill: #b8c5dc; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" fill="#0d1424"/>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#bgLeft)"/>
+
+  <!-- Moon / cold light, upper right -->
+  <circle cx="1060" cy="62" r="42" fill="url(#moon)"/>
+  <circle cx="1060" cy="62" r="9" fill="#dcefff" opacity="0.55"/>
+
+  <!-- Mountains: three parallax layers right side -->
+  <g transform="translate(620 50)">
+    <!-- Back layer (faintest, distant) -->
+    <path d="M0,150 L50,130 L100,148 L160,118 L220,148 L280,128 L340,148 L400,132 L460,150 L520,134 L560,150 L560,200 L0,200 Z"
+          fill="#2a4068" opacity="0.45"/>
+    <!-- Mid layer -->
+    <path d="M0,165 L60,128 L110,158 L175,98 L230,142 L290,105 L355,140 L410,118 L470,150 L530,118 L560,165 L560,200 L0,200 Z"
+          fill="#1f3458" opacity="0.78"/>
+    <!-- Front layer (closest, tallest) -->
+    <path d="M0,175 L55,148 L105,168 L165,82 L225,148 L285,62 L340,140 L400,98 L455,150 L510,102 L560,160 L560,200 L0,200 Z"
+          fill="#0f1f3d"/>
+    <!-- Mist over the bottom of the mountains -->
+    <rect x="0" y="140" width="560" height="60" fill="url(#mist)"/>
+  </g>
+
+  <!-- Stars / sparse dots above the range -->
+  <g fill="#b6dcf5" opacity="0.7">
+    <circle cx="720" cy="40" r="1.2"/>
+    <circle cx="830" cy="68" r="1"/>
+    <circle cx="900" cy="35" r="1.4"/>
+    <circle cx="980" cy="118" r="1"/>
+    <circle cx="1130" cy="48" r="1.2"/>
+    <circle cx="1160" cy="92" r="1"/>
+  </g>
+
+  <text x="64" y="62" class="tag">@triw0lf</text>
+  <text x="64" y="152" class="name" font-size="92">Lauren <tspan class="em">Proehl</tspan></text>
+  <text x="64" y="196" class="role" font-size="18">Executive by day, hunter by night.</text>
+  <text x="64" y="224" class="role" opacity="0.7">Global Head of D&amp;R at <tspan font-weight="500" fill="#eef3ff">Marsh</tspan>  ·  Co-founder of <tspan font-weight="500" fill="#eef3ff">THOR Collective</tspan></text>
+</svg>
